@@ -33,7 +33,7 @@ This script will evaluate the performance of the model/s on the dataset and outp
 TODO: 1. Automate the final_evals.csv (maybe read all results in results that start with BASIC_Eval and combine the averages)
 """
 
-available_models = ["gpt-3.5-turbo-0125", "gpt-4", "gpt-4o", "gpt-4-turbo", "gpt-4o-mini"]
+available_models = ["claude-3-5-sonnet-20240620","gpt-3.5-turbo-0125", "gpt-4", "gpt-4o", "gpt-4-turbo", "gpt-4o-mini"]
 
 
 def answer_accuracy(row):
